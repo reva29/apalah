@@ -1,0 +1,46 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+/* Style untuk header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style untuk tautan navigasi */
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Style untuk tombol "Kembali" */
+.back-button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
